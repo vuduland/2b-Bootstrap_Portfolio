@@ -22,14 +22,14 @@
       <header class="headerName">Victor Uland</header>
 
 
-        <nav class="navbar sticky-top navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-dark bg-dark">
            <div class="navbarContent">
 
             <a class="navLink" href="index.html">About Me</a>
             <a class="navLink" href="portfolio.html">Portfolio</a>
             <a class="navLink" href="contact.html">Contact Me</a>
 
-            <ul>
+            <!-- <ul>
               About Me
             </ul>
             <ul>
@@ -37,16 +37,22 @@
             </ul>
             <ul>
               Contact
-            </ul>
+            </ul> -->
 
           </div>
         </nav>
 
     <main>
       <div class="container">
-        <div class="row">
+        <div id="rowOne" class="row">
+          <h1 class="page-header">About Me</h1>
+        </div>
 
-          <img src="assets\images\headshot.jpg" alt="authorPicture" class="image/jpg" />
+        <div id="rowTwo" class="row">
+
+          <div class="col-sm-8">
+
+          <img id="authorPicture" src="assets\images\headshot.jpg" alt="authorPicture" type="image/jpg" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             reprehenderit blanditiis molestias omnis provident voluptatibus
@@ -63,6 +69,13 @@
             voluptatem asperiores autem quas laudantium blanditiis soluta
             reprehenderit unde modi aperiam officiis tempore, distinctio et ratione!
           </p>
+          </div>
+
+          <div id="sideCard" class="col-md-4">
+
+
+          </div>
+
 
         </div>
       </div>
