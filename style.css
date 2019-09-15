@@ -17,26 +17,12 @@ html {
     z-index: 2;
 }
 
-.page-header{
-    display: block;
-    margin: 12% 0% 0% 0%;
-    padding: 12% 0;
-    text-align: left;
-}
-
-
 .main {
     margin: 1%;
     padding: 2%;
 }
 
 html .container {
-
-}
-
-html .container #authorPicture {
-    width: 150px;
-    height: 150px;
 }
 
 html .container #rowOne {
